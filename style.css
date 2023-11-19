@@ -1,0 +1,142 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+:root{
+    --color--one--: linear-gradient(45deg, rgb(0, 0, 0), rgb(255, 94, 0), rgb(0, 0, 0));
+}
+
+body {
+    box-sizing: border-box;
+    background: var(--color--one--);   
+    height: 100vh;
+    width: 100hv;
+}
+
+.cabecalho {
+    display: flex;
+    position: relative;
+    top: 0;
+}
+
+.titulo {
+  color: white;
+  display: flex;
+}
+
+.perfis {
+    display: flex;    
+}
+
+.luffy {
+    width: 120px;
+    height: 120px;
+    border: solid 2px white;
+    border-radius: 100%;
+    transition: 200ms;
+}
+
+.ichigo {
+    width: 120px;
+    height: 120px;
+    border: solid 2px white;
+    border-radius: 100%;
+    transition: 200ms;
+}
+
+.zenitsu {
+    width: 120px;
+    height: 120px;
+    border: solid 2px white;
+    border-radius: 100%;
+    transition: 200ms;
+}
+
+.zenitsu:hover {
+    transform: scale(1.5);
+}
+
+.ichigo:hover {
+    transform: scale(1.5);
+}
+
+.luffy:hover {
+    transform: scale(1.5);
+}
+
+
+@media (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+      }
+      
+      :root {
+        --color-one: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(255, 94, 0), rgb(0, 0, 0));
+      }
+      
+      body {
+        box-sizing: border-box;
+        background: var(--color-one);
+        height: 100vh;
+        width: 100vw;
+      }
+      
+      .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+            
+      .corpo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      
+      .perfis {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 26px;
+      }
+      
+      .luffy {
+        width: 80px;
+        height: 80px;
+        border: 2px solid white;
+        border-radius: 50%;
+        transition: transform 200ms;
+      }
+
+      .ichigo {
+        width: 80px;
+        height: 80px;
+        border: 2px solid white;
+        border-radius: 50%;
+        transition: transform 200ms;
+      }
+
+      .zenitsu {
+        width: 80px;
+        height: 80px;
+        border: 2px solid white;
+        border-radius: 50%;
+        transition: transform 200ms;
+      }
+      
+      .zenitsu:hover {
+        transform: scale(1.5);
+    }
+    
+    .ichigo:hover {
+        transform: scale(1.5);
+    }
+    
+    .luffy:hover {
+        transform: scale(1.5);
+    }
+}
