@@ -12,27 +12,23 @@ body {
     background: var(--color--one--);   
     height: 100vh;
     width: 100hv;
+    display: flex;
 }
 
 .corpo {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 
-.cabecalho {
-    display: flex;
-    position: relative;
-    top: 0;
-}
-
-.titulo {
-  color: white;
+.logo_titulo {
   display: flex;
+  justify-content: center;
 }
 
 .perfis {
-    display: flex;    
-    justify-content: center;
+    display: flex;
+    gap: 50%;
+    
 }
 
 .luffy {
