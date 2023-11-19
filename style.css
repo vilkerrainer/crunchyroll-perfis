@@ -32,6 +32,7 @@ body {
 
 .perfis {
     display: flex;    
+    justify-content: center;
 }
 
 .luffy {
