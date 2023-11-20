@@ -94,7 +94,7 @@ body {
 
       .logo_titulo {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         width: 200px;
         height: 40px;
       }            
