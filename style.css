@@ -95,8 +95,8 @@ body {
       .logo_titulo {
         display: flex;
         justify-content: center;
-        width: 40px;
-        height: 70px;
+        width: 30px;
+        height: 230px;
       }            
       .corpo {
         display: flex;
