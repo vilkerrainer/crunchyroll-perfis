@@ -14,3 +14,37 @@ body {
     width: 100vw;
     display: flex;
 }
+
+@media (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+      }
+      
+      :root {
+        --color-one: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(255, 94, 0), rgb(0, 0, 0));
+      }
+      
+      body {
+        box-sizing: border-box;
+        background: var(--color-one);
+        height: 100vh;
+        width: 100vw;
+      }
+      
+      .logo_titulo {
+        display: flex;
+        width: 350px;
+        height: 60px;
+        align-items: center;
+      }
+      
+      .corpo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 40px;
+      }
+}
