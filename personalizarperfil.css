@@ -1,0 +1,16 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+:root{
+    --color--one--: linear-gradient(45deg, rgb(0, 0, 0), rgb(255, 94, 0), rgb(0, 0, 0));
+}
+
+body {
+    box-sizing: border-box;
+    background: var(--color--one--);   
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}

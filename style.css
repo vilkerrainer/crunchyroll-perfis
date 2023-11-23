@@ -37,6 +37,29 @@ body {
   transition: 200ms;
 }
 
+.perfil1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lapis {
+  width: 30px;
+  display: flex;
+  transition: 200ms;
+}
+
+button {
+  background-color: transparent;  
+  border: none;
+  outline: none;
+  display: flex;
+}
+
+.lapis:hover {
+  transform: scale(2);
+}
+
 a {
   text-decoration: none;
 }
@@ -120,6 +143,11 @@ a {
         flex-wrap: wrap;
         justify-content: center;
         gap: 26px;
+      }
+
+      .lapis {
+        margin: 0 auto; 
+        display: block; 
       }
       
       .p1 {
