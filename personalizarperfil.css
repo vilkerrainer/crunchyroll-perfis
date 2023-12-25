@@ -29,6 +29,21 @@ body {
     border-radius: 10px;
   }
 
+  .b2 {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+    transition: 250ms;
+  }
+
+.b2:hover {
+    transform: scale(1.5);
+    background-color: white;
+    color: black;
+}
+
 @media (max-width: 1200px) {
     * {
         margin: 0;
