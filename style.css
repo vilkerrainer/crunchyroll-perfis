@@ -102,7 +102,11 @@ a {
 }
 
 .conjunto_p1:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.perfil1:hover .lapis{
+  opacity: 0;
 }
 
 
