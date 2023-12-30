@@ -30,7 +30,8 @@ body {
 .perfis {
     display: flex;
     gap: 20%;
-    justify-content: center;    
+    justify-content: center;
+    align-items: center;    
 }
 
 .conjunto_p1 {
@@ -40,7 +41,7 @@ body {
 .perfil1 {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: center;
 }
 
 .lapis {
@@ -54,6 +55,7 @@ button {
   border: none;
   outline: none;
   display: flex;
+  margin-top: 5px;
 }
 
 .lapis:hover {
@@ -71,27 +73,28 @@ a {
   font-size: 25px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  margin-top: 5px;
 }
 
 .luffy {
-    width: 120px;
-    height: 120px;
-    border: solid 2px white;
-    border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  border: solid 2px white;
+  border-radius: 100%;
 }
 
 .ichigo {
-    width: 120px;
-    height: 120px;
-    border: solid 2px white;
-    border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  border: solid 2px white;
+  border-radius: 100%;
 }
 
 .zenitsu {
-    width: 120px;
-    height: 120px;
-    border: solid 2px white;
-    border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  border: solid 2px white;
+  border-radius: 100%;
 }
 
 .deku {
