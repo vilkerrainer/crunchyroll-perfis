@@ -105,11 +105,6 @@ a {
   transform: scale(1.5);
 }
 
-.perfil1:hover .lapis{
-  opacity: 0;
-}
-
-
 @media (max-width: 1200px) {
     * {
         margin: 0;
@@ -195,5 +190,5 @@ a {
 
       .conjunto_p1:hover {
         transform: scale(1.5);
-    }
+      }
 }
