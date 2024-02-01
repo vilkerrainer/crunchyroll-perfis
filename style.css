@@ -58,6 +58,7 @@ button {
   outline: none;
   display: flex;
   margin-top: 5px;
+  padding: 1px 0px 0px 0px;
 }
 
 a {
