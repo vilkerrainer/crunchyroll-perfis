@@ -1,20 +1,18 @@
 
-let nomeDoPerfil1;
-
 function personalizarPerfil() {
     window.location.href = "personalizar.html";
 }
 
 function mudarNome() {
-    nomeDoPerfil1 = document.getElementById("novoNomeDoPerfil");
+    let nomeDoPerfil1 = document.getElementById("novoNomeDoPerfil").value;
+    return nomeDoPerfil1;
 }
 
 function salvarPerfil() {
     window.location.href = "index.html";
-    document.getElementById("per1").innerHTML = nomeDoPerfil(nomeDoPerfil1);
+    
 }
 
-function nomeDoPerfil () {
-let teste = document.getElementById("per1").value = nomeDoPerfil1;
+function testar() {
+    document.getElementById("per1").innerHTML = "ola";
 }
-
