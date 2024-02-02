@@ -1,5 +1,5 @@
-let nomeDoPerfil1 = "";
 
+let nomeDoPerfil1;
 
 function personalizarPerfil() {
     window.location.href = "personalizar.html";
@@ -11,10 +11,10 @@ function mudarNome() {
 
 function salvarPerfil() {
     window.location.href = "index.html";
-    mudarNome();
+    document.getElementById("per1").innerHTML = nomeDoPerfil(nomeDoPerfil1);
 }
 
 function nomeDoPerfil () {
-document.getElementById("per1").innerHTML  = nomeDoPerfil1;
+let teste = document.getElementById("per1").value = nomeDoPerfil1;
 }
 
